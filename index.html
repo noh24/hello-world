@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+  <script src="./js/scripts.js"></script>
+  <title>Boxes</title>
+</head>
+<body>
+  <div class="box1"><p>I'm box #1.</p></div>
+  <div class="box2"><p>I'm box #2.</p></div>
+  <div class="box3"><p>I'm box #3.</p></div>
+
+  <!-- //select form -->
+  <form id="select-form">
+    <label for="beverage">Choose a beverage: </label>
+    <select id="beverage" name="beverage">
+      <option>Coffee</option>
+      <option>Tea</option>
+      <option>Kombucha</option>
+      <option>Water</option>
+    </select>
+    <button type="submit">Submit Selection</button>
+  </form>
+
+  <!-- radio form -->
+  <form id="radio-form">
+    <label>
+      <input type="radio" name="flavor" value="chocolate" checked>
+      Chocolate
+    </label>
+    <label>
+      <input type="radio" name="flavor" value="vanilla">
+      Vanilla
+    </label>
+    <label>
+      <input type="radio" name="flavor" value="strawberry">
+      Strawberry
+    </label>
+    <button type="submit">Submit Selection</button>
+  </form>
+
+  <!-- date form -->
+  <label for="born">Date of Birth:</label>
+  <input id="born" type="date">
+
+  <!-- color form -->
+  <label for="color">What is your favorite Color?</label>
+  <input id="color" type="color">
+</body>
+</html>
